@@ -24,9 +24,9 @@ function NavBar() {
             key={link.href}
             href={link.href}
             className={classnames({
-              "text-zinc-900": link.href === pathname,
+              "text-zinc-100": link.href === pathname,
               "text-zinc-500": link.href !== pathname,
-              "hover:text-zinc-800 transition-colors": true,
+              "hover:text-zinc-300 transition-colors": true,
             })}
           >
             {link.label}
