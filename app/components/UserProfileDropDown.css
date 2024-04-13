@@ -1,0 +1,23 @@
+.user-avatar {
+    width: 40px;  /* Adjust the size to your preference */
+    height: 40px;  /* Adjust the size to your preference */
+    border-radius: 50%;  /* Makes the avatar circular */
+    overflow: hidden;  /* Ensures the image doesn't spill outside the border-radius */
+}
+
+.dropdown-content {
+    background-color: white;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.dropdown-item {
+    padding: 8px 16px;
+    cursor: pointer;
+    line-height: 1.5;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+}
